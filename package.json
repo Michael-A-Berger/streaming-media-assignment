@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "Completed streaming assignment for IGME 430",
+  "main": "./src/server.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Michael-A-Berger/streaming-media-assignment.git"
+  },
+  "author": "Michael Berger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Michael-A-Berger/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/Michael-A-Berger/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
